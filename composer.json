@@ -45,7 +45,7 @@
     "scripts": {
         "test": "phpunit",
         "test:cov": "phpunit --coverage-text --coverage-clover coverage.xml --coverage-html vendor/cov",
-        "cs:sniff": "tools/phpcs",
-        "cs:fix": "tools/phpcbf"
+        "cs:sniff": "phpcs",
+        "cs:fix": "phpcbf"
     }
 }
